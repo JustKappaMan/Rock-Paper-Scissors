@@ -1,0 +1,58 @@
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  margin: 0;
+  color: #8396a5;
+  user-select: none;
+}
+
+body > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+}
+
+.panel {
+  display: grid;
+  grid-template: auto / repeat(3, 80px);
+  grid-gap: 10px;
+  height: 80px;
+  width: 260px;
+}
+
+.panel div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  outline: 3px solid #8396a5;
+  background: #e2e2e2;
+  font: 16px sans-serif;
+}
+
+#player div {
+  cursor: pointer;
+}
+
+#scoreboard {
+  height: 160px;
+  width: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  outline: 3px solid #8396a5;
+  background: #e2e2e2;
+  font: 32px sans-serif;
+}
