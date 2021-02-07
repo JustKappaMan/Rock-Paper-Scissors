@@ -32,7 +32,7 @@
         score = aiChoice === 'Rock' ? --score : ++score;
       }
 
-      // Pause so plaer can see result, unblock all buttons and update score
+      // Pause so player can see result, unblock all buttons and update score
       setTimeout(() => {
         playerBlock.style.backgroundColor = '#e2e2e2';
         aiBlock.style.backgroundColor = '#e2e2e2';
