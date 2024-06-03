@@ -5,7 +5,6 @@
 Rock-Paper-Scissors game.
 
 ## Credits
-* [JetBrains](https://www.jetbrains.com) for [Open Source Development license](https://www.jetbrains.com/community/opensource)
 * [Freepik](https://www.flaticon.com/authors/freepik) for the favicons
 
 ## License
